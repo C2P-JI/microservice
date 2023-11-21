@@ -39,6 +39,7 @@ How the program
   If "get_total" is sent to 'run_service.txt' then 'LR_service.py' calculates the total amount of 
   calories, water(g), carbs(g), sugar(g), fiber(g), and fat(g) from 'food_log.csv' and sends
   the calculated valeus to 'total.txt' in the following format
+
                     calories: 94.6
                     water (g): 156.0
                     protein (g): 0.43
@@ -46,6 +47,7 @@ How the program
                     sugar (g): 18.9
                     fiber (g): 4.37
                     fat (g): 0.3
+
   To RECIEVE this information your main application needs to open and read each line from 'total.txt'
 ******************************************************************************************************
 UML sequence Diagram
